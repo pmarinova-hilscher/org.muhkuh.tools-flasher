@@ -1,2 +1,0 @@
-ADD_SUBDIRECTORY(external)
-ADD_SUBDIRECTORY(lua-archive)

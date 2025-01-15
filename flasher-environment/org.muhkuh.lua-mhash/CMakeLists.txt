@@ -1,2 +1,0 @@
-ADD_SUBDIRECTORY(libmhash)
-ADD_SUBDIRECTORY(mhash)

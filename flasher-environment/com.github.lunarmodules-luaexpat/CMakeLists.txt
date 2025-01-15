@@ -1,2 +1,0 @@
-ADD_SUBDIRECTORY(expat)
-ADD_SUBDIRECTORY(luaexpat)
