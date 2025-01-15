@@ -1,0 +1,9 @@
+services:
+  mbs:
+    image: ghcr.io/muhkuh-sys/mbs_ubuntu_2204_x86_64:latest
+    command: sh
+    stdin_open: true 
+    tty: true
+    working_dir: /tmp/work/src
+    volumes:
+      - "./:/tmp/work/src"
