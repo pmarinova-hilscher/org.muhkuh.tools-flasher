@@ -17,7 +17,11 @@ apt update && apt install -y python3-pip && python3 -m pip install gitpython
 git config --global --add safe.directory $PWD
 ```
 
-To build the netX flasher sources run:
+To build the netX flasher sources:
 ```shell
+# Build all targets
 python3 mbs/mbs
+
+# Build for a specific target
+python3 mbs/mbs --netx=NETX90
 ```
