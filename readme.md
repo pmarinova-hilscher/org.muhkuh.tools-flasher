@@ -13,8 +13,8 @@ When starting the container for the first time:
 # Install required tools 
 apt update && apt install -y python3-pip && python3 -m pip install gitpython
 
-# Fix git error ‘detected dubious ownership in repository’
-git config --global --add safe.directory $PWD
+# Disable git safe directory
+git config --system --add safe.directory '*'
 ```
 
 To build the netX flasher sources:
