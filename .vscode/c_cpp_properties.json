@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "netX 90 | Linux GCC ARM",
+        "compilerPath": "${GCC_ARM_PATH}/bin/arm-none-eabi-gcc",
+        "intelliSenseMode": "linux-gcc-arm",
+        "includePath": ["${workspaceFolder}/**"],
+        "defines": ["ASIC_TYP=ASIC_TYP_NETX90"]
+      }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+  }
+  
