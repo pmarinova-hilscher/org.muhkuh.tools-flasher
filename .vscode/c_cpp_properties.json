@@ -5,7 +5,13 @@
         "compilerPath": "${GCC_ARM_PATH}/bin/arm-none-eabi-gcc",
         "intelliSenseMode": "linux-gcc-arm",
         "includePath": ["${workspaceFolder}/**"],
-        "defines": ["ASIC_TYP=ASIC_TYP_NETX90"]
+        "defines": [
+            "ASIC_TYP=ASIC_TYP_NETX90",
+            "CFG_INCLUDE_SHA1=1",
+            "CFG_INCLUDE_PARFLASH=1",
+            "CFG_INCLUDE_INTFLASH=1",
+            "CFG_INCLUDE_SMART_ERASE=1"
+        ]
       }
     ],
     "version": 4,
